@@ -1,0 +1,44 @@
+{
+  "name": "jjsoft-ar/jjsoft-api",
+  "description": "Laravel API Starter Kit for JJSoft Platform",
+  "keywords": [
+    "JJSoft",
+    "API"
+  ],
+  "homepage": "https://github.com/jjsoft-ar/jjsoft-api",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jose C Gallo",
+            "email": "aguara_gazu@yahoo.com.ar",
+            "homepage": "http://aguaragazu.github.io/aguaragazu",
+            "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^5.5.9 || ^7.0",
+    "tymon/jwt-auth": "0.5.*",
+    "dingo/api": "1.0.*@dev",
+    "lucadegasperi/oauth2-server-laravel": "^5.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*",
+    "orchestra/testbench": "~3.1",
+    "mockery/mockery": "0.9.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "JJSoft\\JJSoftApi\\": "src/"
+    }
+  },
+    "autoload-dev": {
+      "psr-4": {
+        "JJSoft\\JJSoftApi\\Tests\\": "tests/"
+      }
+    },
+  "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "preferred-install": "dist"
+    }
+}
