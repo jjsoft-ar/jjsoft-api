@@ -97,7 +97,6 @@ class JJSoftApiServiceProvider extends LaravelServiceProvider {
 
     private function handleRoutes() {
 
-        include __DIR__.'/../routes.php';
         $this->app['router']->middleware('api.cors',
             'JJSoft\JJSoftApi\Http\Middleware\Cors');
         $this->app['router']->middleware('api.csfroff',

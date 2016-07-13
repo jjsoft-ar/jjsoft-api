@@ -23,7 +23,7 @@ class DingoApiServiceProvider extends LaravelServiceProvider
      */
     public function register()
     {
-        $this->setupConfig();
+    //    $this->setupConfig();
         parent::register();
     }
 
