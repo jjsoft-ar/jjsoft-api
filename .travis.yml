@@ -15,3 +15,7 @@ before_script:
   - travis_retry composer install --prefer-source --no-interaction --dev
 
 script: phpunit
+
+addons:
+    code_climate:
+        repo_token: e72b791cfe4ac1efdf1a202464d2845d1ba7cbe7263cad7e604bd544a140e78b

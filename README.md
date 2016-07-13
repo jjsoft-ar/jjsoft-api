@@ -1,4 +1,11 @@
-# Boilerplate Laravel 5 Package
+# JJSoft API Package
+
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Software License][ico-license]](LICENSE.md)
+[![Build Status][ico-travis]][link-travis]
+[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
+[![Quality Score][ico-code-quality]][link-code-quality]
+[![Total Downloads][ico-downloads]][link-downloads]
 
 ## Installation
 
@@ -76,3 +83,18 @@ Finally, edit this `README.md` file and replace it with a description of your ow
 Commit everything to your (newly initialized) git repo, and push it wherever you'll keep your package (Github, etc.).
 
 Enjoy coding!
+
+[ico-version]: https://img.shields.io/packagist/v/jjsoft-ar/jjsoft-api.svg?style=flat-square
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[ico-travis]: https://travis-ci.org/jjsoft-ar/jjsoft-api.svg?branch=1.0.1
+[ico-scrutinizer]: https://codeclimate.com/github/jjsoft-ar/jjsoft-api/badges/coverage.svg
+[ico-code-quality]: https://codeclimate.com/github/jjsoft-ar/jjsoft-api/badges/gpa.svg
+[ico-downloads]: https://img.shields.io/packagist/dt/jjsoft-ar/jjsoft-api.svg?style=flat-square
+
+[link-packagist]: https://packagist.org/packages/jjsoft-ar/jjsoft-api
+[link-travis]: https://travis-ci.org/jjsoft-ar/jjsoft-api
+[link-scrutinizer]: https://codeclimate.com/github/jjsoft-ar/jjsoft-api/coverage
+[link-code-quality]: https://codeclimate.com/github/jjsoft-ar/jjsoft-api
+[link-downloads]: https://packagist.org/packages/jjsoft-ar/jjsoft-api
+[link-author]: https://github.com/aguaragazu
+[link-issues]: https://github.com/jjsoft-ar/jjsoft-api/issues
